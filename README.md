@@ -1,4 +1,4 @@
-<h1> Hi there 👋  I'm Samarth Jain .</h1>
+<h2> Hi there 👋  I'm Samarth Jain .</h2>
 <hr>
 
 <!--
