@@ -1,5 +1,9 @@
+<head>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
 <h2> Hi there 👋  I'm Samarth Jain .</h2>
-<hr>
+
 
 <!--
 **samarth-jain28/samarth-jain28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
