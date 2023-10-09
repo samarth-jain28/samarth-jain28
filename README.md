@@ -1,5 +1,6 @@
-### Hi there 👋
-I'm Samarth Jain
+### Hi there 👋 I'm Samarth Jain
+
+
 <!--
 **samarth-jain28/samarth-jain28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
