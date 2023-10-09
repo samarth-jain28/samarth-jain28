@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="styles.css">
+ 
 </head>
 <body>
   <h2> Hi there 👋  I'm Samarth Jain .</h2>
