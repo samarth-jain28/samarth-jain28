@@ -2,7 +2,7 @@
  
 </head>
 <body>
-  <h2 style="color:blue"> Hi there 👋  I'm Samarth Jain .</h2>
+  <h2 style="font-family:impact"> Hi there 👋  I'm Samarth Jain .</h2>
 </body>
 
 <!--
