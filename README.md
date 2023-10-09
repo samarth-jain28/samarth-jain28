@@ -1,6 +1,12 @@
 <head>
   <link rel="stylesheet" href="styles.css">
-  
+  <style>
+    h2{
+      color:red;
+    }
+  </style>
+    
+    
 </head>
 <body>
   <h2> Hi there 👋  I'm Samarth Jain .</h2>
