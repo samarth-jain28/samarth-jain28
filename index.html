@@ -1,45 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a personal website of Samarth Jain which presents all about him.">
-    <title>Samarth Jain | FullStack Developer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samarth Jain | Portfolio</title>
+  <meta
+    name="description"
+    content="Portfolio website of Samarth Jain showcasing projects, skills, and contact information."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-    <header>
-        <h1>Samarth Jain</h1>
-        <p>FullStack developer</p>
-    </header>
-    <nav>
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Education</a>
-        <a href="">Skills</a>
-        <a href="">Hobbies</a>
-        <a href="">Let's Connect</a>
-    </nav>
-    <main>
-        <section>
-            <h1>About</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus molestiae eveniet beatae deserunt
-                maiores explicabo illo esse! Numquam accusantium tenetur natus nemo quidem excepturi aliquam sapiente
-                eveniet molestiae exercitationem unde consectetur ipsa laboriosam quam porro, praesentium vel similique
-                quasi dolorum necessitatibus? Animi explicabo distinctio perspiciatis?</p>
-        </section>
+  <div class="noise"></div>
 
-        <section>
-            <h1>Projects</h1>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">Samarth Jain</a>
+      <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        </section>
+  <main>
+    <section class="hero container reveal">
+      <p class="eyebrow">Software Developer</p>
+      <h1>
+        Building practical products with
+        <span>clean engineering</span>
+      </h1>
+      <p class="hero-copy">
+        I am Samarth Jain, a developer focused on fast, maintainable web experiences.
+        I enjoy shipping products that solve real user problems.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">See Projects</a>
+        <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+      </div>
+      <div class="hero-metrics">
+        <article>
+          <h2>12+</h2>
+          <p>Projects built</p>
+        </article>
+        <article>
+          <h2>3+</h2>
+          <p>Years coding</p>
+        </article>
+        <article>
+          <h2>100%</h2>
+          <p>Focus on quality</p>
+        </article>
+      </div>
+    </section>
 
-    </main>
-    <footer>
+    <section class="section container reveal" id="about">
+      <p class="eyebrow">About</p>
+      <h2>Engineer mindset with product thinking</h2>
+      <p>
+        I work across frontend and backend, with an emphasis on performance, reliability,
+        and good developer experience. I like transforming complex ideas into clear,
+        usable interfaces.
+      </p>
+    </section>
 
-    </footer>
+    <section class="section container reveal" id="skills">
+      <p class="eyebrow">Skills</p>
+      <h2>Core stack</h2>
+      <div class="chip-grid">
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Python</span>
+        <span>SQL</span>
+        <span>REST APIs</span>
+        <span>Git</span>
+      </div>
+    </section>
 
+    <section class="section container reveal" id="projects">
+      <div class="section-head">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>
+            A modern web app focused on speed and clean user flows.
+            Replace this with your real project details.
+          </p>
+          <div class="tags">
+            <span>React</span>
+            <span>Node</span>
+          </div>
+          <a href="#" aria-label="Open Project One">View project</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>
+            Data-focused dashboard with clear visualization and strong usability.
+            Replace this with your real project details.
+          </p>
+          <div class="tags">
+            <span>TypeScript</span>
+            <span>Charting</span>
+          </div>
+          <a href="#" aria-label="Open Project Two">View project</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>
+            Automation tool that reduces repetitive work and improves team velocity.
+            Replace this with your real project details.
+          </p>
+          <div class="tags">
+            <span>Python</span>
+            <span>APIs</span>
+          </div>
+          <a href="#" aria-label="Open Project Three">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal" id="experience">
+      <p class="eyebrow">Experience</p>
+      <h2>Recent journey</h2>
+      <div class="timeline">
+        <article>
+          <h3>Software Developer</h3>
+          <p class="timeline-meta">Company Name • 2024 - Present</p>
+          <p>Built and improved product features while maintaining code quality and reliability.</p>
+        </article>
+        <article>
+          <h3>Intern / Freelance Developer</h3>
+          <p class="timeline-meta">Organization Name • 2022 - 2024</p>
+          <p>Delivered web solutions end-to-end, from design to deployment and optimization.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal contact" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s build something useful</h2>
+      <p>
+        Reach me at
+        <a href="mailto:your-email@example.com">your-email@example.com</a>
+        or connect on
+        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Samarth Jain</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
