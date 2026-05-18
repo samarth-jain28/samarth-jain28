@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Samarth Jain | Portfolio</title>
-  <meta
-    name="description"
-    content="Portfolio website of Samarth Jain showcasing projects, skills, and contact information."
-  />
+  <meta name="description"
+    content="Portfolio website of Samarth Jain showcasing projects, skills, and contact information." />
   <meta name="google-site-verification" content="sE4NQTnIA10aUm6QG91b9cp_rjmpvA2LfIlwwCYwGIw" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
-    rel="stylesheet"
-  />
+    rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <div class="noise"></div>
 
@@ -27,8 +26,9 @@
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -42,8 +42,8 @@
         <span>clean engineering</span>
       </h1>
       <p class="hero-copy">
-        I am Samarth Jain, a developer focused on fast, maintainable web experiences.
-        I enjoy shipping products that solve real user problems.
+        I am Samarth Jain, a dedicated Software Developer taking full ownership of tasks—from designing to delivering
+        complete backend flows.
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#projects">See Projects</a>
@@ -55,7 +55,7 @@
           <p>Projects built</p>
         </article>
         <article>
-          <h2>3+</h2>
+          <h2>4+</h2>
           <p>Years coding</p>
         </article>
         <article>
@@ -66,27 +66,181 @@
     </section>
 
     <section class="section container reveal" id="about">
-      <p class="eyebrow">About</p>
-      <h2>Engineer mindset with product thinking</h2>
+      <div class="section-head">
+        <p class="eyebrow">About</p>
+        <h2>Engineer mindset with product thinking</h2>
+      </div>
       <p>
-        I work across frontend and backend, with an emphasis on performance, reliability,
-        and good developer experience. I like transforming complex ideas into clear,
-        usable interfaces.
+        Skilled in Python, Django, REST, GraphQL, PostgreSQL, and Docker. I am highly adaptable, quick to understand new
+        systems, and consistently responsible for meeting project goals and solving critical problems.
       </p>
     </section>
 
     <section class="section container reveal" id="skills">
-      <p class="eyebrow">Skills</p>
-      <h2>Core stack</h2>
+      <div class="section-head">
+        <p class="eyebrow">Skills</p>
+        <h2>Core stack</h2>
+      </div>
       <div class="chip-grid">
-        <span>JavaScript</span>
-        <span>TypeScript</span>
-        <span>React</span>
-        <span>Node.js</span>
         <span>Python</span>
-        <span>SQL</span>
-        <span>REST APIs</span>
+        <span>Java</span>
+        <span>C/C++</span>
+        <span>Django</span>
+        <span>FastAPI</span>
+        <span>REST</span>
+        <span>GraphQL</span>
+        <span>PostgreSQL</span>
+        <span>Docker</span>
         <span>Git</span>
+      </div>
+    </section>
+
+    <section class="section container reveal" id="experience">
+      <div class="section-head">
+        <p class="eyebrow">Experience</p>
+        <h2>Recent journey</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <h3>Lead Software Engineer</h3>
+          <p class="timeline-meta">Farzi Engineer • Jan 2025 - Present</p>
+          <p style="margin-bottom: 1.5rem;">
+            Leading the backend architecture and development for Tumbledry's laundry management system, serving over
+            1,500 stores and 2,000,000+ customers. Responsible for end-to-end delivery, system design, and production
+            bug resolution.
+          </p>
+
+          <div class="module-grid">
+            <div class="module-card reveal" onclick="this.classList.toggle('expanded')">
+              <div class="module-header">
+                <h4>Performance Optimization</h4>
+                <span class="expand-icon">+</span>
+              </div>
+              <p class="module-short">Sped up GraphQL API responses by 70-80% using advanced database caching.</p>
+              <div class="module-details">
+                <ul>
+                  <li>Optimized over 30 GraphQL queries, improving response speeds by 70-80% through Django ORM caching
+                    (select_related, prefetch_related) and minimizing loop-based database calls.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="module-card reveal" onclick="this.classList.toggle('expanded')">
+              <div class="module-header">
+                <h4>Payments Module Architecture</h4>
+                <span class="expand-icon">+</span>
+              </div>
+              <p class="module-short">Architected a unified payment system with multiple gateways, webhooks, and partial
+                refunds.</p>
+              <div class="module-details">
+                <ul>
+                  <li>Architected a robust, secure, and consistent payments module for checkouts, orders, and
+                    subscriptions using the Strategy design pattern.</li>
+                  <li>Integrated Paytm and HDFC payment gateways using a scalable plugin architecture, incorporating
+                    webhooks for real-time server-to-server payment capture.</li>
+                  <li>Developed a generic, transactional payment creation system enabling users to pay for multiple
+                    orders and services simultaneously.</li>
+                  <li>Implemented a reliable webhook-based payment capturing system with automated transaction
+                    management and downtime handling.</li>
+                  <li>Built a partial refund system handling scenarios like unprocessed garments or canceled sub-orders
+                    within a unified payment.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="module-card reveal" onclick="this.classList.toggle('expanded')">
+              <div class="module-header">
+                <h4>Roles, Permissions & Security</h4>
+                <span class="expand-icon">+</span>
+              </div>
+              <p class="module-short">Engineered a comprehensive RBAC multi-tenant system with stateless JWT and OTPs.
+              </p>
+              <div class="module-details">
+                <ul>
+                  <li>Engineered a comprehensive role-based access control (RBAC) system utilizing Django groups and
+                    permissions.</li>
+                  <li>Implemented stateless JWT authentication with OTP login mechanisms, including device-based OTP
+                    exceptions.</li>
+                  <li>Designed a multi-tenant authorization architecture allowing users to hold different roles across
+                    various stores, secured via a decorator pattern for GraphQL queries.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="module-card reveal" onclick="this.classList.toggle('expanded')">
+              <div class="module-header">
+                <h4>Order Management System</h4>
+                <span class="expand-icon">+</span>
+              </div>
+              <p class="module-short">Built an advanced end-to-end cart, checkout, and order modification engine.</p>
+              <div class="module-details">
+                <ul>
+                  <li>Developed an advanced cart and order creation module supporting multiple services, addons,
+                    discounts, and automated wallet balance adjustments.</li>
+                  <li>Built an order modification system allowing real-time editing of garments, discounts, and
+                    automatic recalculation of package and voucher applications.</li>
+                  <li>Engineered the complete order lifecycle management, handling edge cases like unprocessed items and
+                    automatic refunds.</li>
+                  <li>Optimized cart operations with bulk checkout APIs and bulk database updates, reducing processing
+                    time to sub-second levels.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="module-card reveal" onclick="this.classList.toggle('expanded')">
+              <div class="module-header">
+                <h4>Packages & Vouchers</h4>
+                <span class="expand-icon">+</span>
+              </div>
+              <p class="module-short">Created a highly customizable package and voucher engine, boosting retention by
+                34%.</p>
+              <div class="module-details">
+                <ul>
+                  <li>Created a highly customizable package module allowing complex rules based on valid garments,
+                    services, and minimum order values, increasing customer retention by 34%.</li>
+                  <li>Developed an extensible voucher engine using JSON-defined rules and recursive validations, with a
+                    highly optimized query returning applicable vouchers sorted by maximum savings.</li>
+                  <li>Implemented atomic, isolated package and voucher transactions on orders to ensure data
+                    consistency.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="module-card reveal" onclick="this.classList.toggle('expanded')">
+              <div class="module-header">
+                <h4>Catalog & User Management</h4>
+                <span class="expand-icon">+</span>
+              </div>
+              <p class="module-short">Designed complex dynamic pricing schemas, user registration, and holiday
+                management flows.</p>
+              <div class="module-details">
+                <ul>
+                  <li>Designed database schemas for complex pricing models involving base and reference services,
+                    allowing store-specific overrides.</li>
+                  <li>Built a customer registration system with phone/email validation, OTP verification, and profile
+                    management capabilities.</li>
+                  <li>Developed a store holiday management system requiring super-admin approval for consecutive days.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section container reveal" id="education">
+      <div class="section-head">
+        <p class="eyebrow">Education</p>
+        <h2>Academic background</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <h3>B.Tech in Computer Science and Engineering</h3>
+          <p class="timeline-meta">Jaypee University of Engineering and Technology • 2021 - 2025</p>
+          <p>Graduated with a CGPA of 7.3/10.</p>
+        </article>
       </div>
     </section>
 
@@ -95,73 +249,34 @@
         <p class="eyebrow">Projects</p>
         <h2>Selected work</h2>
       </div>
-      <div class="project-grid">
+      <div class="project-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
         <article class="project-card">
-          <h3>Project One</h3>
+          <h3>Examination Copy Checker</h3>
           <p>
-            A modern web app focused on speed and clean user flows.
-            Replace this with your real project details.
-          </p>
-          <div class="tags">
-            <span>React</span>
-            <span>Node</span>
-          </div>
-          <a href="#" aria-label="Open Project One">View project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Project Two</h3>
-          <p>
-            Data-focused dashboard with clear visualization and strong usability.
-            Replace this with your real project details.
-          </p>
-          <div class="tags">
-            <span>TypeScript</span>
-            <span>Charting</span>
-          </div>
-          <a href="#" aria-label="Open Project Two">View project</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Project Three</h3>
-          <p>
-            Automation tool that reduces repetitive work and improves team velocity.
-            Replace this with your real project details.
+            Built a tool to evaluate handwritten exam answers by integrating Google Vision API for OCR and a BERT model
+            for semantic answer analysis.
           </p>
           <div class="tags">
             <span>Python</span>
-            <span>APIs</span>
+            <span>Spring Boot</span>
+            <span>REST APIs</span>
           </div>
-          <a href="#" aria-label="Open Project Three">View project</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="section container reveal" id="experience">
-      <p class="eyebrow">Experience</p>
-      <h2>Recent journey</h2>
-      <div class="timeline">
-        <article>
-          <h3>Software Developer</h3>
-          <p class="timeline-meta">Company Name • 2024 - Present</p>
-          <p>Built and improved product features while maintaining code quality and reliability.</p>
-        </article>
-        <article>
-          <h3>Intern / Freelance Developer</h3>
-          <p class="timeline-meta">Organization Name • 2022 - 2024</p>
-          <p>Delivered web solutions end-to-end, from design to deployment and optimization.</p>
+          <a href="https://github.com/samarth-jain28/Examination-Copy-Checker/" target="_blank" rel="noreferrer"
+            aria-label="Open Examination Copy Checker">View project</a>
         </article>
       </div>
     </section>
 
     <section class="section container reveal contact" id="contact">
-      <p class="eyebrow">Contact</p>
-      <h2>Let’s build something useful</h2>
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something useful</h2>
+      </div>
       <p>
         Reach me at
-        <a href="mailto:your-email@example.com">your-email@example.com</a>
+        <a href="mailto:samarthjain28.2002@gmail.com">samarthjain28.2002@gmail.com</a>
         or connect on
-        <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>.
+        <a href="https://www.linkedin.com/in/samarth-jain-b17a1019a/" target="_blank" rel="noreferrer">LinkedIn</a>.
       </p>
     </section>
   </main>
@@ -174,4 +289,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
